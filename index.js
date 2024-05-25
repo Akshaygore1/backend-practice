@@ -23,14 +23,7 @@ const userDeatils = User.find({});
 // select * from user
 console.log('User', userDeatils);
 
-// async function main() {
-// 	const user = await User.create({
-// 		name: 'John',
-// 		email: 'Kwv8N@example.com',
-// 		password: '123456',
-// 	});
-// 	// console.log(user);
-// }
+
 
 // main();
 database.on('error', (error) => {
